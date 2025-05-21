@@ -15,6 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  background-color: #cdeef1;
 }
 
 header,
@@ -23,13 +24,23 @@ footer {
   justify-content: center;
   align-items: center;
   height: 150px;
-  background-color: #188794;
+  color: #fff;
+  background-color: #1b7a85;
 }
 
 main {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  gap: 50px;
   flex: 1;
-  background-color: #76e1ec;
+  margin: 150px 40px;
+}
+
+section {
+  width: 50%;
+  min-height: 100px;
+  border: 1px solid #9fdfe6;
+  border-radius: 20px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
