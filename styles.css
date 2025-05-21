@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 html,
 body {
   height: 100%;
@@ -14,8 +19,9 @@ body {
 #root {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  background-color: #cdeef1;
+  min-height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
 }
 
 header,
@@ -23,24 +29,93 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150px;
+  min-height: 150px;
   color: #fff;
   background-color: #1b7a85;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  padding: 40px;
+  font-size: 26px;
+}
+
+.logo {
+  font-size: 50px;
+  font-family: 'Fredericka the Great', serif;
+}
+
+.header-nav {
+  display: flex;
+  gap: 30px;
+  font-weight: bold;
+}
+
+.header-nav a:hover {
+  color: #6af0ff;
+  text-decoration: underline;
 }
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 70px;
   flex: 1;
-  margin: 150px 40px;
+  padding: 150px 40px;
+  background-color: #cdeef1;
 }
 
 section {
-  width: 50%;
-  min-height: 100px;
-  border: 1px solid #9fdfe6;
-  border-radius: 20px;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  min-height: 200px;
+  padding: 50px 20px;
+  border: 2px solid #9fdfe6;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  width: 500px;
+  min-height: 600px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-family: 'Fredericka the Great', serif;
+}
+
+.scroll-up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  background-color: #4aa1abf5;
+  border: 1px solid #1b7a85;
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.scroll-up:hover {
+  /* color: #6af0ff; */
+  background-color: #0f4f56;
 }
