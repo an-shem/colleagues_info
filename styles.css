@@ -146,6 +146,34 @@ footer {
   text-align: justify;
 }
 
+.card-ad {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.card-ad img {
+  height: 200px;
+  width: fit-content;
+}
+
+.section-ad {
+  color: #6452a7;
+  background-color: #715d7f;
+  border-color: #3e4156;
+}
+
+.text-content-ad {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.text-content-ad p {
+  text-align: justify;
+}
+
 .text-content-sas p {
   text-align: justify;
 }
