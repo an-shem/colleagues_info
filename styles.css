@@ -187,3 +187,27 @@ footer {
 .foto-sas {
   width: 200px;
 }
+
+.section-luna {
+  color: #495280;
+  background-color: #414c7d;
+  border-color: #3e4156;
+}
+
+.text-content-luna{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.foto-luna{
+  height: 200px;
+  width: fit-content;
+}
+.card-luna{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
