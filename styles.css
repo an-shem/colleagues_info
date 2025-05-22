@@ -118,7 +118,7 @@ footer {
   background-color: #0f4f56;
 }
 
-.card-ans {
+.card-ans, .card-sas {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -129,13 +129,13 @@ footer {
   width: fit-content;
 }
 
-.section-ans {
+.section-ans, .section-sas {
   color: #525fa7;
   background-color: #5d637f;
   border-color: #3e4156;
 }
 
-.text-content-ans {
+.text-content-ans, .text-content-sas {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -144,4 +144,12 @@ footer {
 
 .text-content-ans p {
   text-align: justify;
+}
+
+.text-content-sas p {
+  text-align: justify;
+}
+
+.foto-sas {
+  width: 200px;
 }
