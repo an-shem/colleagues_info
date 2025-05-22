@@ -129,10 +129,16 @@ footer {
   width: fit-content;
 }
 
-.section-ans, .section-sas {
+.section-ans {
   color: #525fa7;
   background-color: #5d637f;
   border-color: #3e4156;
+}
+
+.section-sas {
+  color: #2c3045;
+  background-color: #6776a3;
+  border-color: #979ab1;
 }
 
 .text-content-ans, .text-content-sas {
